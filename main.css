@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Caveat', cursive;
+}
+body {
+    background-color: #1c2c1c;
+    display: grid;
+    justify-content: center;
+}
+.pomodoro-image{
+    width: 150px;
+    height: auto;
+}
+
+#app{
+    background-color: rgb(71, 71, 99);
+    padding: 20px;
+    border-radius: 16px;
+    margin-top: 20px;
+    width: auto;
+}
+#value{
+    color: #10f880de;
+}
+#time{
+    font-size: 2.8rem;
+    color: whitesmoke;
+}
+.title{
+    font-size: 2.0rem;
+    color: #aec4ae; 
+    font-size: 3.0rem;
+}
+#btnAdd{
+    height: 28px;
+    border-radius: 4px;
+    background-color: #668366;
+    font-weight: 600;
+    font-size: 2.0rem;
+    font-family: 'Caveat', cursive;
+    padding-left: 8px;
+    padding-right: 12px;
+    margin-left: 8px;
+}
+.start-button{
+    margin-top: 8px;
+    background-color: #ca0b0b69;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 2.0rem;
+    color: whitesmoke;
+    font-family: 'Caveat', cursive;
+}

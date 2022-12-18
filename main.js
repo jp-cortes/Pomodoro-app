@@ -55,7 +55,7 @@ function createTask(value) {
             if (!timer){
                 const id = button.getAttribute('data-id');
                 startButtonHandler(id);
-                button.textContent = 'In progress ...'
+                button.textContent = 'In progress...'
             }
         });
     });
@@ -65,8 +65,8 @@ function createTask(value) {
     time = 25 * 60;
     //time = 5;
     current = id;
-    const taskIndex = tasks.findIndex((task) => task.id == id);
-    taskName.textContent = tasks[taskIndex].title;
+    const taskIndex = tasks.findIndex((task) => task.id === id);
+    taskName.textContent = `In progress: ${tasks[taskIndex].title}`;
 
     timer = setInterval(() => {
         timeHandler(id);
@@ -77,7 +77,7 @@ function createTask(value) {
     time--;
     renderTime();
 
-    if (time == 0) {
+    if (time === 0) {
         clearInterval(timer)
        markCompleted(id);
        timer = null;

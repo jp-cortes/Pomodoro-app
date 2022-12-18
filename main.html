@@ -4,11 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./main.css">
     <title>Pomodoro App</title>
 </head>
 <body>
-    <div id="app">
+    <main id="app">
+        <img class="pomodoro-image" src="./pomodoro.png" alt="pomodoro image">
         <div id="time">
             <div id="value"></div>
             <div id="taskName"></div>
@@ -18,7 +22,7 @@
             <div class="form">
                 <form action="" id="form">
                     <input type="text" id="itTask">
-                    <input type="submit" value="Agregar Tarea" id="btnAdd">
+                    <input type="submit" value="Add a task" id="btnAdd">
                 </form>
             </div>
             <div id="tasks">
@@ -26,7 +30,7 @@
             </div>
         </div>
 
-    </div>
+    </main>
     <script src="./main.js"></script>
 </body>
 </html>
